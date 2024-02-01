@@ -1,0 +1,22 @@
+{
+  "name": "intellifuel-static",
+  "version": "1.0.0",
+  "description": "The IntelliFuel static HTML with Tailwind",
+  "main": "index.js",
+  "scripts": {
+    "watch": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rapidnoodle/intellifuel-static.git"
+  },
+  "author": "rapidnoodle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rapidnoodle/intellifuel-static/issues"
+  },
+  "homepage": "https://github.com/rapidnoodle/intellifuel-static#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
