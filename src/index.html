@@ -9,7 +9,7 @@
     </head>
     <body>
         <header class="text-white fixed p-5">
-            <ul class="flex items-center gap-10 [&>*:hover]:underline">
+            <ul class="max-w-screen-xl mx-auto flex items-center gap-10 [&>*:hover]:underline">
                 <li><a class="text-3xl font-medium" href="#">IntelliFuel</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">News</a></li>
@@ -18,43 +18,45 @@
         </header>
         <div class="bg-hero bg-cover bg-no-repeat bg-center">
             <div class="text-white font-medium p-20 mx-auto">
-                <h1 class="text-6xl text-center my-8">Enterprise Oil Futures</h1>
-                <button class="block mx-auto px-20 py-4 text-lg bg-primary rounded-lg transition-colors hover:bg-gray-400">
+                <h1 class="text-6xl text-center my-8 leading-snug">Enterprise Oil Futures</h1>
+                <button class="block mx-auto px-20 py-4 text-lg bg-primary rounded-lg transition-colors hover:bg-dark-primary">
                     Get Started
                 </button>
             </div>
         </div>
-        <div>
-            <h2>Our Mission</h2>
-            <p>
+        <div class="max-w-screen-md w-11/12 mx-auto my-16">
+            <h2 class="text-3xl font-medium text-center mb-4">Our Mission</h2>
+            <p class="font-thin text-center">
                 Provide a chatbot to help traders make decisions regarding the sale
                 or purchase of oil by taking into account external real-world factors 
                 that affect the price of oil
             </p>
         </div>
-        <div>
+        <div class="max-w-screen-lg w-11/12 mx-auto my-16 flex items-center gap-10">
+            <div class="w-full max-w-lg aspect-[4/3] bg-hero bg-cover bg-no-repeat bg-center rounded-lg"></div>
             <div>
-                <img src="" alt="">
-            </div>
-            <div>
-                <h2>Our _____</h2>
-                <p>DKDKDKDKDKDKDKDKDKDKDKKDKDKDKDKDKDKDKDKDKDKDKD</p>
-                <button>Learn More</button>
-            </div>
-        </div>
-        <div>
-            <div>
-                <img src="" alt="">
-            </div>
-            <div>
-                <h2>Our Team</h2>
-                <p>Read about the members behind the screen, and learn what drew us to this project.</p>
-                <button>Read Now</button>
+                <h2 class="text-3xl font-medium text-center mb-8">Our _____</h2>
+                <p class="font-thin text-center mb-6">DKDKDKDKDKDKDKDKDKDKDKKDKDKDKDKDKDKDKDKDKDKDKD</p>
+                <button class="block mx-auto px-20 py-4 font-medium text-white text-lg bg-primary rounded-lg transition-colors hover:bg-dark-primary">
+                    Learn More
+                </button>
             </div>
         </div>
-        <div>
-            <h2>Contact Us</h2>
-            <p>If you have any questions, comments, or concerns please contact us here. Thank you!</p>
+        <div class="max-w-screen-lg w-11/12 mx-auto my-16 flex items-center flex-row-reverse gap-10">
+            <div class="w-full max-w-lg aspect-[4/3] bg-hero bg-cover bg-no-repeat bg-center rounded-lg"></div>
+            <div>
+                <h2 class="text-3xl font-medium text-center mb-8">Our Team</h2>
+                <p class="font-thin text-center mb-6">
+                    Read about the members behind the screen, and learn what drew us to this project.
+                </p>
+                <button class="block mx-auto px-20 py-4 font-medium text-white text-lg bg-primary rounded-lg transition-colors hover:bg-dark-primary">
+                    Read Now
+                </button>
+            </div>
+        </div>
+        <div class="max-w-screen-md w-11/12 mx-auto my-16">
+            <h2 class="text-3xl font-medium text-center mb-4">Contact Us</h2>
+            <p class="font-thin text-center">If you have any questions, comments, or concerns please contact us here. Thank you!</p>
             <form action="">
                 <label for="fname">First name:</label><br>
                 <input type="text" id="fname" name="fname"><br>
@@ -67,8 +69,10 @@
                 <input type="submit" value="Submit">
             </form>
         </div>
-        <footer>
-            <p>2501 W Addison St, Chicago, IL 60618   |   <a href="tel:7735345400">(773) 534-5400</a>   |  mrmarsico@cps.edu</p>
+        <footer class="p-8 bg-dark">
+            <p class="text-white text-center">
+                2501 W Addison St, Chicago, IL 60618   |   <a class="text-dark-primary underline" href="tel:7735345400">(773) 534-5400</a>   |  mrmarsico@cps.edu
+            </p>
         </footer>
     </body>
 </html>
