@@ -7,6 +7,7 @@ module.exports = {
         dark: '#38383B',
         primary: "#A8A6A1",
         'dark-primary': "#999793",
+        'light-primary': "#F7F7F7",
       },
       backgroundImage: {
         'hero': "url('/assets/intellifuel-banner.jpg')",

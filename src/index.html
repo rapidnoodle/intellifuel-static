@@ -19,7 +19,7 @@
         <div class="bg-hero bg-cover bg-no-repeat bg-center">
             <div class="text-white font-medium p-20 mx-auto">
                 <h1 class="text-6xl text-center my-8 leading-snug">Enterprise Oil Futures</h1>
-                <button class="block mx-auto px-20 py-4 text-lg bg-primary rounded-lg transition-colors hover:bg-dark-primary">
+                <button class="block mx-auto px-20 py-4 text-lg bg-primary rounded-lg cursor-pointer transition-colors hover:bg-dark-primary">
                     Get Started
                 </button>
             </div>
@@ -37,7 +37,7 @@
             <div>
                 <h2 class="text-3xl font-medium text-center mb-8">Our _____</h2>
                 <p class="font-thin text-center mb-6">DKDKDKDKDKDKDKDKDKDKDKKDKDKDKDKDKDKDKDKDKDKDKD</p>
-                <button class="block mx-auto px-20 py-4 font-medium text-white text-lg bg-primary rounded-lg transition-colors hover:bg-dark-primary">
+                <button class="block mx-auto px-12 py-4 font-medium text-white text-lg bg-primary rounded-lg cursor-pointer transition-colors hover:bg-dark-primary">
                     Learn More
                 </button>
             </div>
@@ -49,24 +49,30 @@
                 <p class="font-thin text-center mb-6">
                     Read about the members behind the screen, and learn what drew us to this project.
                 </p>
-                <button class="block mx-auto px-20 py-4 font-medium text-white text-lg bg-primary rounded-lg transition-colors hover:bg-dark-primary">
+                <button class="block mx-auto px-12 py-4 font-medium text-white text-lg bg-primary rounded-lg cursor-pointer transition-colors hover:bg-dark-primary">
                     Read Now
                 </button>
             </div>
         </div>
-        <div class="max-w-screen-md w-11/12 mx-auto my-16">
+        <div class="max-w-screen-md w-11/12 mx-auto my-16 font-thin">
             <h2 class="text-3xl font-medium text-center mb-4">Contact Us</h2>
-            <p class="font-thin text-center">If you have any questions, comments, or concerns please contact us here. Thank you!</p>
-            <form action="">
-                <label for="fname">First name:</label><br>
-                <input type="text" id="fname" name="fname"><br>
-                <label for="lname">Last name:</label><br>
-                <input type="text" id="lname" name="lname"><br>
-                <label for="email">Email:</label><br>
-                <input type="email" id="email" name="email"><br>
-                <label for="message">Message:</label><br>
-                <textarea name="message" id="message" cols="30" rows="3"></textarea><br>
-                <input type="submit" value="Submit">
+            <p class="text-center mb-8">If you have any questions, comments, or concerns please contact us here. Thank you!</p>
+            <form action="" class="max-w-xl mx-auto p-10 bg-light-primary rounded-lg">
+                <div class="flex justify-between gap-5 mb-3">
+                    <div class="flex-1">
+                        <label class="block mb-1" for="fname">First Name</label>
+                        <input class="w-full p-2 rounded-md border border-black" type="text" id="fname" name="fname">
+                    </div>
+                    <div class="flex-1">
+                        <label class="block mb-1" for="lname">Last Name</label>
+                        <input class="w-full p-2 rounded-md border border-black" type="text" id="lname" name="lname">
+                    </div>
+                </div>
+                <label class="block mb-1" for="email">Email</label>
+                <input class="w-full p-2 mb-3 rounded-md border border-black" type="email" id="email" name="email" required>
+                <label class="block mb-1" for="message">Message</label>
+                <textarea class="w-full p-2 mb-3 rounded-md border border-black" name="message" id="message" required cols="30" rows="3"></textarea>
+                <input class="block mx-auto px-10 py-4 font-medium text-white text-lg bg-primary rounded-lg cursor-pointer transition-colors hover:bg-dark-primary" type="submit" value="Send">
             </form>
         </div>
         <footer class="p-8 bg-dark">
