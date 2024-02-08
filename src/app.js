@@ -9,7 +9,9 @@ function applyClasses(classes, condition) {
     }
 }
 
-document.addEventListener('scroll', () => {
+function update() {
     applyClasses(topClasses, window.scrollY === 0);
     applyClasses(scrollClasses, window.scrollY > 0);
-});
+}
+
+document.addEventListener('scroll', update);
