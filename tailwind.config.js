@@ -12,6 +12,7 @@ module.exports = {
       backgroundImage: {
         'hero': "url('/assets/intellifuel-banner.jpg')",
         'content': "url('https://picsum.photos/400')",
+        'cme': "url('/assets/cme-group-logo-transparent.png')",
       }
     },
   },

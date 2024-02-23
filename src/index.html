@@ -14,7 +14,7 @@
                 <ul class="flex items-center gap-7 [&>*:hover]:underline sm:gap-10">
                     <li><a href="about.html">About</a></li>
                     <li><a href="news.html">News</a></li>
-                    <li><a href="#">Read More</a></li>
+                    <li><a href="readme.html">Read Me</a></li>
                 </ul>
             </div>
         </header>
@@ -62,17 +62,17 @@
             <form action="" class="max-w-xl mx-auto bg-light-primary rounded-lg p-5 sm:p-10">
                 <div class="flex justify-between gap-5 mb-3 flex-col sm:flex-row">
                     <div class="flex-1">
-                        <label class="block mb-1" for="fname">First Name</label>
-                        <input class="w-full p-2 rounded-md border border-black" type="text" id="fname" name="fname">
+                        <label class="block mb-1" for="fname">First Name <span class="text-gray-400">(required)</span></label>
+                        <input class="w-full p-2 rounded-md border border-black" type="text" id="fname" name="fname" required>
                     </div>
                     <div class="flex-1">
                         <label class="block mb-1" for="lname">Last Name</label>
                         <input class="w-full p-2 rounded-md border border-black" type="text" id="lname" name="lname">
                     </div>
                 </div>
-                <label class="block mb-1" for="email">Email</label>
+                <label class="block mb-1" for="email">Email <span class="text-gray-400">(required)</span></label>
                 <input class="w-full p-2 mb-3 rounded-md border border-black" type="email" id="email" name="email" required>
-                <label class="block mb-1" for="message">Message</label>
+                <label class="block mb-1" for="message">Message <span class="text-gray-400">(required)</span></label>
                 <textarea class="w-full p-2 mb-3 rounded-md border border-black" name="message" id="message" required cols="30" rows="3"></textarea>
                 <input class="block mx-auto px-10 py-4 font-medium text-white text-lg bg-primary rounded-lg cursor-pointer transition-colors hover:bg-dark-primary" type="submit" value="Send">
             </form>
