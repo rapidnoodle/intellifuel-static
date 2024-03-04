@@ -10,7 +10,7 @@ module.exports = {
         'light-primary': "#F7F7F7",
       },
       backgroundImage: {
-        'hero': "url('/assets/intellifuel-banner.jpg')",
+        'hero': "url('/assets/oil-rigs-sunset.jpg')",
         'content': "url('https://picsum.photos/400')",
         'cme': "url('/assets/cme-group-logo-transparent.png')",
       }
